@@ -1,5 +1,6 @@
 import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
+import { getBooks } from '../api/bookData';
 
 const emptyBooks = () => {
   const domString = '<h1>No Books</h1>';
@@ -30,4 +31,4 @@ const showBooks = (array) => {
   renderToDOM('#store', domString);
 };
 
-export { showBooks, emptyBooks };
+export { showBooks, emptyBooks, getBooks };

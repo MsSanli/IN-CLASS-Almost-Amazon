@@ -22,6 +22,9 @@ const navBar = () => {
               <a class="nav-link" href="#" id="authors">Authors</a>
             </li>
             <li>
+            <li class="nav-item">
+            <a class="nav-link" href="#" id="authors-favs">Fave Authors</a>
+          </li>
             <input
               class="form-control mr-sm-2"
               id="search"
