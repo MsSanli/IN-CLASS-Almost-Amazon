@@ -1,6 +1,6 @@
 import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
-
+// New view should have author name, email, favorite
 const viewBook = (obj) => {
   clearDom();
 
